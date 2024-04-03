@@ -1,0 +1,15 @@
+create table if not exists neo_service(
+service_code integer not null,
+on_perm_service varchar(255) null,
+cloud_data varchar(255) null,
+relationship varchar(255) null,
+self_hosted integer null,
+security_req integer null,
+connected_data integer null,
+schema_free varchar(255) null,
+graph_scale varchar(255) null,
+shards_count integer null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint neo_service_pk primary key(service_code));

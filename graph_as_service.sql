@@ -1,0 +1,15 @@
+create table if not exists graph_as_service(
+service_code integer not null,
+graph_name varchar(255) null,
+node_count varchar(255) null,
+node_names varchar(255) null,
+properties_name varchar(255) null,
+prop_count integer null,
+prop_type varchar(255) null,
+references1 varchar(255) null,
+ref_link_provided varchar(255) null,
+reference_duration integer null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint graph_as_service_pk primary key(service_code));
